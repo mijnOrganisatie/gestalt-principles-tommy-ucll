@@ -15,7 +15,26 @@
         display: flex;
         gap: 30px;
       }
+
+      .good-nav {
+        list-style: none;
+        display: flex;
+      }
+
+      .good-nav li {
+        padding: 1em;
+      }
+
+      .good-nav li a {
+        color: rgb(55, 128, 0);
+      }
+
+      .good-nav li:not(:last-child)::after {
+        content: ">";
+        margin-left: 1em;
+      }
       /* ✅ Beter voorbeeld van continiuity */
+      
     </style>
   </head>
   <body>
